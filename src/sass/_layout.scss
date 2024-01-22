@@ -1,0 +1,90 @@
+@use "mixin" as respond;
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+
+  min-height: 50rem;
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: var(--color-grey-light-3);
+  border-bottom: var(--line);
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include respond.screen(tab-port) {
+    flex-wrap: wrap;
+
+    height: 20rem;
+    margin-bottom: 0;
+  }
+
+  @include respond.screen(phone) {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.content {
+  display: flex;
+
+  @include respond.screen(tab-port) {
+    display: block;
+  }
+}
+
+#hotel {
+  flex: 1;
+  display: flex;
+}
+
+.detail {
+  font-size: 1.4rem;
+  padding: 1.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+
+  display: flex;
+  flex-direction: column;
+
+  @include respond.screen(phone) {
+    justify-content: center;
+  }
+}
+
+.description {
+  font-size: inherit;
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3.3rem;
+  width: 90%;
+
+  @include respond.screen(tab-port) {
+    margin: 0;
+  }
+}
+
+.user-reviews {
+  font-size: inherit;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @include respond.screen(tab-port) {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Hotel Trillo",
+  "version": "1.0.0",
+  "description": "Landing page for a Hotel",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Maat",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "@parcel/transformer-sass": "^2.10.2"
+  },
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
+}
