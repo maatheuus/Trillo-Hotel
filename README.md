@@ -26,3 +26,4 @@
 <h3>Link para o site</h3>
 
 - Link para o deploy: (https://hotelstrillo.netlify.app/)
+- <a target="_blank" href="https://hotelstrillo.netlify.app">Link para o deploy.</a>
