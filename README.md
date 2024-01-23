@@ -1,6 +1,6 @@
 <h1 align="center">Trillo Hotel</h1>
 
-<h2> Bem vindo ao <a href=" https://hotelstrillo.netlify.app/">Trillo Hotel</a>.</h2>
+<h2> Bem vindo ao Trillo Hotel  .</h2>
 
 ![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-FINALIZADO-green)
 
@@ -25,4 +25,4 @@
 
 <h3>Link para o site</h3>
 
-- <p>Você pode acessar o deploy do site <a href=" https://hotelstrillo.netlify.app/">clicando aqui</a>.</p>
+![Deploy] (https://hotelstrillo.netlify.app/)
