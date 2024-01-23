@@ -25,4 +25,4 @@
 
 <h3>Link para o site</h3>
 
-![Deploy] (https://hotelstrillo.netlify.app/)
+- Link para o deploy: (https://hotelstrillo.netlify.app/)
