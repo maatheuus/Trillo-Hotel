@@ -1,9 +1,9 @@
-"use stric";
+"use strict";
 import { OPTIONS_HEADER, API_KEY } from "../config.js";
 import renderPreview from "./renderPreview.js";
 
 /**
- * @param {object} SearchHotel Faz toda busca do hotel
+ * @param {object} SearchHotel Faz toda pelo busca do hotel
  */
 class SearchHotel {
   _id;

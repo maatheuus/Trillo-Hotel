@@ -1,4 +1,4 @@
-"use stric";
+"use strict";
 import * as model from "./model.js";
 import renderPreview from "./views/renderPreview.js";
 import paginationView from "./views/paginationView.js";
